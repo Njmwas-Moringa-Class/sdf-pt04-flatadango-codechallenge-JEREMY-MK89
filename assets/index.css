@@ -33,8 +33,11 @@ body {
   margin-left: 20px;
 }
 
-#films li::before {
+#films li {
   content: "";
+  font-weight: bolder;
+  text-decoration-color: #3e8fde;
+  text-shadow: 1px 1px 2px #3e8fde; 
 }
 
 .film {
